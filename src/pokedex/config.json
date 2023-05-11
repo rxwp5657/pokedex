@@ -1,0 +1,5 @@
+{
+    "pokemonListLimit": 20,
+    "pokemonListURL": "https://pokeapi.co/api/v2/pokemon",
+    "spriteURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon"
+}

@@ -2,10 +2,10 @@ import "./PokemonCard.css"
 import config from  "./config.json"
 
 /**
- * An entry of the pokedex wich includes the pokemon name and sprite.
+ * An entry of the pokedex which includes the pokemon name and sprite.
+ * @constructor
  * @param {string} name - Pokemon name (i.e. Charizard)
  * @param {string} url - PokeAPI URL that can be used to fetch pokemon details.
- * @returns PokemonCard component.
  */
 function PokemonCard({name, url}) {
 

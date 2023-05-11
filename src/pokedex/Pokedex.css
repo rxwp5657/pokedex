@@ -1,0 +1,15 @@
+.pokedex-container {
+    background-image: linear-gradient(#21B6A8, #A3EBB1);
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.pokedex {
+    margin: 5em 15em 5em 15em;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    background-color: transparent;
+}
